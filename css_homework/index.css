@@ -1,0 +1,42 @@
+#one {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: coral;
+
+}
+
+#two {
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    color: darkorchid;
+}
+
+#three {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 212);
+    color: red;
+}
+
+#four {
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    color: yellow;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+div {
+    padding: 30px;
+  }
+
+  div {
+    margin: 30px;
+  }
