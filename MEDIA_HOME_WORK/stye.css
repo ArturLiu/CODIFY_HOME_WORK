@@ -1,0 +1,158 @@
+
+.figure {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .one {
+    background-color: blue;
+  }
+  .two {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .three {
+    background-color: green;
+    width: 250px;
+    height: 150px;
+  }
+  .four {
+    background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .five {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid purple;
+  }
+  
+ 
+  @media (max-width: 1200px) {
+    .one {
+        width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    }
+    .two {
+        background-color: green;
+    width: 250px;
+    height: 150px;
+    }
+    .three {
+        background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    }
+    .four {
+        width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid purple;
+    }
+    .five {
+        background-color: blue;
+    }
+  }
+  
+ 
+  @media (max-width: 883px) {
+    .one {
+        background-color: green;
+    width: 250px;
+    height: 150px;
+    }
+    .two {
+        background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    }
+    .three {
+        width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 170px solid purple;
+    }
+    .four {
+        background-color: blue;
+    }
+    .five {
+        width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    }
+  }
+  
+  
+  @media (max-width: 540px) {
+    .one {
+        background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    }
+    .two {
+        width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid purple;
+    }
+    .three {
+        background-color: blue;
+    }
+    .four {
+        width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    }
+    .five {
+        background-color: green;
+    width: 250px;
+    height: 150px;
+    }
+  }
+  
+  
+  @media (max-width: 320px) {
+    .one {
+        width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.2px solid purple;
+    }
+    .two {
+        background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    }
+    .three {
+        background-color: green;
+    width: 250px;
+    height: 150px;
+    }
+    .four {
+        width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    }
+    .five {
+        background-color: blue;
+    }
+  }
