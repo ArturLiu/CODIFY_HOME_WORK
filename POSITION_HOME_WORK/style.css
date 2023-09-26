@@ -1,0 +1,95 @@
+.two{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.one {
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+}
+.three{
+    height: 30px;
+    width: 30px;
+    background-color: darkcyan;
+}
+
+@media screen and (max-width:1000px) and (min-width:700px) {
+    .two{
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        position: relative;
+        left: 100px;
+    }
+    .one {
+        height: 30px;
+        width: 30px;
+        background-color: aqua;
+    }
+    .three{
+        height: 30px;
+        width: 30px;
+        background-color: darkcyan;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:500px) {
+    .two{
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        position: absolute;
+        top: 0;
+    }
+    .one {
+        height: 30px;
+        width: 30px;
+        background-color: aqua;
+    }
+    .three{
+        height: 30px;
+        width: 30px;
+        background-color: darkcyan;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:300px) {
+    .two{
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        position: fixed;
+        bottom: 0;
+    }
+    .one {
+        height: 30px;
+        width: 30px;
+        background-color: aqua;
+    }
+    .three{
+        height: 30px;
+        width: 30px;
+        background-color: darkcyan;
+    }
+}
+
+@media screen and (max-width:300px) and (min-width:100px) {
+    .box{
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        position: sticky;
+        top: 10px;
+    }
+    .one {
+        height: 30px;
+        width: 30px;
+        background-color: aqua;
+    }
+    .three{
+        height: 30px;
+        width: 30px;
+        background-color: darkcyan;
+    }
+}
