@@ -1,0 +1,67 @@
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: none;
+}
+
+@keyframes moveHorizontal {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 220px;
+    }
+}
+
+@keyframes resizeAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #fd0000;
+    }
+
+    25% {
+        background-color: #73ff00;
+    }
+
+    50% {
+        background-color: #00eeff;
+    }
+
+    75% {
+        background-color: #8c00ff;
+    }
+
+    100% {
+        background-color: #ff0055;
+    }
+}
+
+#animation:hover {
+    animation: moveHorizontal 2s linear forwards;
+}
+
+#animation:active {
+    animation: resizeAnimation 1s ease-in-out;
+}
+
+#animation {
+    animation: changeColor 5s infinite;
+}
+
+
+
+
+
+
+
+
