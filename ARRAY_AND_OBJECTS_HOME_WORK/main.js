@@ -34,24 +34,19 @@
 
 //! 5
 
-// const one = {
+// const people = [{
 //     name: 'Arthur',
 //     age: 16,
 //     city: 'Bishkek'
-// }
-
-// const two = {
+// },{
 //     name: 'Timur',
 //     age: 14,
 //     city: 'Moscow'
-// }
-
-// const three = {
+// },{
 //     name: 'Emka',
 //     age: 17,
 //     city: 'Istanbul'
-// }
-// const people = [one, two, three]
+// }]
 
 // console.log(people)
 
