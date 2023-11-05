@@ -80,7 +80,7 @@
 
 // product.ProductInfo()
 
-//! 7
+//! 7.
 
 // const animal = {
 //     name: 'Elephant',
@@ -91,4 +91,6 @@
 //   }
 
 //   animal.makeAnoise('ТРУУУУУУМ')
+
+
   
