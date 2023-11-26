@@ -1,0 +1,19 @@
+.active {
+    color: blue
+}
+
+.row-inner {
+    color: pink
+}
+
+.input {
+    background-color: yellow
+}
+
+.row-outer {
+    font-size: 20px
+}
+
+.last {
+    font-weight: bold
+}
